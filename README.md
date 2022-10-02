@@ -15,7 +15,7 @@ https://mu2ewiki.fnal.gov/wiki/GeometryBrowserTutorial2019
    - The level of detail of the Mu2e building and shielding within the hall has changed.  So the geometry
      file that you look at will be different in those details.
    - The .C files have been updated so that the Open GL viewer is selected automatically.  You no longer
-     not to perform the step of opening the OGL viewer.
+     need to perform the step of opening the OGL viewer.
    - The .C files have been changed to use the modern root style of building the supporting .cc file;
      that is   ```gROOT->ProcessLine(".L file.cc+");``` has been changed to
      ```#include "file.cc+"```
@@ -24,6 +24,7 @@ https://mu2ewiki.fnal.gov/wiki/GeometryBrowserTutorial2019
 # Where to find published mu2e.gdml files
 
 Every published musing of Offline contains a mu2e.gdml file.  See, for example,
+
 /cvmfs/mu2e.opensciencegrid.org/Musings/Offline/v10_18_00/build/sl7-prof-e20-p033/Offline/gen/gdml/mu2e.gdml
 
 This gdml file corresonds to the geometry specified by "Offline/Mu2eG4/geom/geom_common.txt" in that release.
