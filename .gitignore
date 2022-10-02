@@ -1,0 +1,6 @@
+*~
+*.log
+*.log.*
+*_cc.d
+*_cc.so
+*_dict_rdict.pcm
